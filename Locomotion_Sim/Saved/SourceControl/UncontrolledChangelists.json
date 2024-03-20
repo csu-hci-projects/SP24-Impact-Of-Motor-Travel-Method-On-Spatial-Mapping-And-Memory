@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Epic_Project_Files/SP24-Impact-Of-Motor-Travel-Method-On-Spatial-Mapping-And-Memory/Locomotion_Sim/Content/StarterContent/Audio/Collapse01.uasset"
+			]
+		}
+	]
+}
