@@ -42,7 +42,7 @@ Locomotion_Sim/*.VC.db
 Locomotion_Sim/*.VC.opendb
 
 # Precompiled Assets
-Locomotion_SimSourceArt/**/*.png
+Locomotion_Sim/SourceArt/**/*.png
 Locomotion_Sim/SourceArt/**/*.tga
 
 # Binary Files
