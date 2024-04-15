@@ -123,13 +123,13 @@ class SideWall(Piece):
         super().__init__(image_draw, rotation_index, wall_width, **kwargs)
 
     def draw(self, x: int, y: int, cell_width: int, cell_height: int) -> None:
-        if self.rot_ind == 2:  # Wall is on bottom
+        if self.rot_ind == 2:
             wall = self.get_top_wall(x, y, cell_width, cell_height)
-        elif self.rot_ind == 1:  # Wall is on left
+        elif self.rot_ind == 1:
             wall = self.get_right_wall(x, y, cell_width, cell_height)
-        elif self.rot_ind == 0:  # Wall is on top
+        elif self.rot_ind == 0:
             wall = self.get_bottom_wall(x, y, cell_width, cell_height)
-        else:  # Wall is on right
+        else:
             wall = self.get_left_wall(x, y, cell_width, cell_height)
 
         self.img_draw.rectangle(wall, fill=self.wall_color)
@@ -147,7 +147,8 @@ class GlowingSphere(Piece):
 
 
 class NoWalls(Piece):
-    def __init__(self, image_draw: ImageDraw, rotation_index: int, wall_width: int=5, **kwargs):  # This doesn't draw anything
+    """ Needed due to standard instantiation model """
+    def __init__(self, image_draw: ImageDraw, rotation_index: int, wall_width: int=5, **kwargs):
         pass
 
     def draw(self, x: int, y: int, cell_width: int, cell_height: int) -> None:
