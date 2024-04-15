@@ -1,8 +1,0 @@
-{
-	"BuildId": "17155196",
-	"Modules": 
-	{
-		"VRExpansionEditor": "UE4Editor-VRExpansionEditor-Win64-DebugGame.dll",
-		"VRExpansionPlugin": "UE4Editor-VRExpansionPlugin-Win64-DebugGame.dll"
-	}
-}
