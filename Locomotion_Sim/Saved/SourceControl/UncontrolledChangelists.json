@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/tamo1/Desktop/NewLocoSim/SP24-Impact-Of-Motor-Travel-Method-On-Spatial-Mapping-And-Memory/Locomotion_Sim/Content/VRTemplate/Audio/Fire01.uasset",
+				"C:/Users/tamo1/Desktop/NewLocoSim/SP24-Impact-Of-Motor-Travel-Method-On-Spatial-Mapping-And-Memory/Locomotion_Sim/Content/Locomotion_Content/Maps/VRPawn.uasset",
+				"C:/Users/tamo1/Desktop/NewLocoSim/SP24-Impact-Of-Motor-Travel-Method-On-Spatial-Mapping-And-Memory/Locomotion_Sim/Content/Locomotion_Content/Maps/VRGameMode.uasset",
+				"C:/Users/tamo1/Desktop/NewLocoSim/SP24-Impact-Of-Motor-Travel-Method-On-Spatial-Mapping-And-Memory/Locomotion_Sim/Content/VRTemplate/Blueprints/VRPawn.uasset",
 				"D:/Epic_Project_Files/SP24-Impact-Of-Motor-Travel-Method-On-Spatial-Mapping-And-Memory/Locomotion_Sim/Content/StarterContent/Audio/Collapse01.uasset"
 			]
 		}
