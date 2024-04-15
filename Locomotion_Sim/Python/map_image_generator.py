@@ -250,7 +250,7 @@ class JsonGridLoader:
                 col = cell["gridIndices"]["y"]
                 grid.set_piece_in_grid(piece_type, row, col, cell["rotationIndex"])
             except KeyError:  # This should be a sphere
-                grid.add_colored_ball(cell["color"].lower(), cell["gridIndices"]["y"], cell["gridIndices"]["x"])
+                grid.add_colored_ball(cell["color"].lower(), cell["gridIndices"]["x"], cell["gridIndices"]["y"])
 
         grid.save()
 
