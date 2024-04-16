@@ -1199,8 +1199,6 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.04.15-16.52.33:118][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
 [2024.04.15-16.52.33:239][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2024.04.15-16.52.33:310][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
-
-<<<<<<< HEAD
 [2024.04.15-02.49.25:651][  1]Running Python start-up script 'D:/Games/epicgamesapps/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.089626 secs
 [2024.04.15-02.49.26:340][ 39]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
 [2024.04.15-02.49.26:340][ 39]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
@@ -8008,7 +8006,6 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.04.15-04.30.55:927][260]LogD3D12RHI: ~FD3D12DynamicRHI
 [2024.04.15-04.30.55:965][260]LogExit: Exiting.
 [2024.04.15-04.30.56:014][260]Log file closed, 04/14/24 22:30:56
-=======
 [2024.04.15-16.52.33:315][  1]Running Python start-up script 'F:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.033549 secs
 [2024.04.15-16.52.33:345][  1]LogD3D12RHI: Cannot end block when stack is empty
 [2024.04.15-16.52.34:983][166]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
@@ -8905,4 +8902,3 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.04.15-16.54.01:281][400]LogD3D12RHI: ~FD3D12DynamicRHI
 [2024.04.15-16.54.01:305][400]LogExit: Exiting.
 [2024.04.15-16.54.01:351][400]Log file closed, 04/15/24 10:54:01
->>>>>>> 10931a6fef90db5fa61d8510a4fa517ffc59dae5
