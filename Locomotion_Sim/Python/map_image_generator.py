@@ -1,6 +1,7 @@
 from PIL import Image, ImageDraw
 import uuid
 import json
+import sys
 
 
 def ind_to_abs_pos(ind: int, rel_len: int):
@@ -164,7 +165,8 @@ class Grid:
     }
 
     def __init__(self, num_cells_row: int=10, num_cells_col: int=10, cell_width: int=10, cell_height: int=10,
-                 background_color: str="white", wall_width: int=5, scale: int=1, padding: list=[0, 0, 0, 0]):
+                 background_color: str="white", wall_width: int=5, scale: int=1, padding: list=[0, 0, 0, 0],
+                 draw_spheres: bool=True):
         self.num_cells_row = num_cells_row
         self.num_cells_col = num_cells_col
         self.org_cell_width = cell_width
@@ -173,6 +175,7 @@ class Grid:
         self.cell_height = cell_height * scale
         self.wall_width = wall_width
         self.img_padding = [pad * scale for pad in padding]
+        self.draw_spheres = draw_spheres
 
         self.grid = [[None for _ in range(num_cells_row)] for _ in range(num_cells_col)]
         self.ball_grid = [[None for _ in range(num_cells_row)] for _ in range(num_cells_col)]
@@ -202,7 +205,7 @@ class Grid:
                     self.draw.rectangle([x * self.cell_width + self.img_padding[0], y * self.cell_height + self.img_padding[1], x * self.cell_width + self.cell_width + self.img_padding[0], y * self.cell_height + self.cell_height + self.img_padding[1]], fill="black")
 
                 else: self.grid[y][x].draw(x, y, self.cell_width, self.cell_height)
-                if self.ball_grid[y][x] is None or self.grid[y][x] is None: continue
+                if self.ball_grid[y][x] is None or self.grid[y][x] is None or not self.draw_spheres: continue
                 else: self.ball_grid[y][x].draw(x, y, self.cell_width, self.cell_height)
 
         self.saved = True
@@ -235,13 +238,14 @@ class JsonGridLoader:
     }
     detail_keys: list = ["offsets", "rowLength", "columnLength", "mapSeed"]
 
-    def __init__(self, file_path: str="map_output.json"):
+    def __init__(self, file_path: str="map_output.json", draw_spheres: bool=True):
         self.file_path = file_path
+        self.draw_spheres = draw_spheres
 
     def json_to_image(self):
         all_map_info = load_json(self.file_path)
         grid = Grid(num_cells_row=all_map_info[self.detail_keys[1]], num_cells_col=all_map_info[self.detail_keys[2]],
-                    scale=25, padding=[2, 2, 2, 2])
+                    scale=25, padding=[2, 2, 2, 2], draw_spheres=self.draw_spheres)
         all_cells = [item for key, item in all_map_info.items() if key not in self.detail_keys]
         for cell in all_cells:
             try:
@@ -255,6 +259,7 @@ class JsonGridLoader:
         grid.save()
 
 
-j_loader = JsonGridLoader()
+draw_spheres = sys.argv[1].lower() != "false"
+j_loader = JsonGridLoader(draw_spheres=draw_spheres)
 j_loader.json_to_image()
 

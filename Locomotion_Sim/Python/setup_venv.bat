@@ -25,7 +25,7 @@ if errorlevel 1 (
 )
 
 echo Running the Python script for first time...
-call generate_2d_map.bat
+call draw_map_with_spheres.bat
 if errorlevel 1 (
     echo Failed to run the script
     goto end
