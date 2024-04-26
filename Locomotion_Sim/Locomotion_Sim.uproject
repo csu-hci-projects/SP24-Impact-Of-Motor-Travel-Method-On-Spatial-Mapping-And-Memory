@@ -54,6 +54,78 @@
 				"Linux",
 				"Android"
 			]
+		},
+		{
+			"Name": "UdpMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "AlembicImporter",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidDeviceProfileSelector",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleImageUtils",
+			"Enabled": false
+		},
+		{
+			"Name": "CableComponent",
+			"Enabled": false
+		},
+		{
+			"Name": "CameraShakePreviewer",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosClothEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosNiagara",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosUserDataPT",
+			"Enabled": false
+		},
+		{
+			"Name": "CharacterAI",
+			"Enabled": false
+		},
+		{
+			"Name": "ChunkDownloader",
+			"Enabled": false
+		},
+		{
+			"Name": "CLionSourceCodeAccess",
+			"Enabled": false
+		},
+		{
+			"Name": "CodeLiteSourceCodeAccess",
+			"Enabled": false
+		},
+		{
+			"Name": "CryptoKeys",
+			"Enabled": false
 		}
 	]
 }
