@@ -126,6 +126,10 @@
 		{
 			"Name": "CryptoKeys",
 			"Enabled": false
+		},
+		{
+			"Name": "OculusAudio",
+			"Enabled": true
 		}
 	]
 }
