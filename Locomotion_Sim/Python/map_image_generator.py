@@ -166,7 +166,7 @@ class Grid:
 
     def __init__(self, num_cells_row: int=10, num_cells_col: int=10, cell_width: int=10, cell_height: int=10,
                  background_color: str="white", wall_width: int=5, scale: int=1, padding: list=[0, 0, 0, 0],
-                 draw_spheres: bool=True):
+                 draw_spheres: bool=True, map_seed: int=None):
         self.num_cells_row = num_cells_row
         self.num_cells_col = num_cells_col
         self.org_cell_width = cell_width
@@ -176,6 +176,7 @@ class Grid:
         self.wall_width = wall_width
         self.img_padding = [pad * scale for pad in padding]
         self.draw_spheres = draw_spheres
+        self.map_seed = map_seed
 
         self.grid = [[None for _ in range(num_cells_row)] for _ in range(num_cells_col)]
         self.ball_grid = [[None for _ in range(num_cells_row)] for _ in range(num_cells_col)]
@@ -219,7 +220,7 @@ class Grid:
             self.image = self.image.transpose(Image.FLIP_LEFT_RIGHT)
 
         if file_path is None:
-            self.image.save(f"map_{self.num_cells_row}_{self.num_cells_col}_{uuid.uuid4()}.png")
+            self.image.save(f"map_{self.num_cells_row}_{self.num_cells_col}_{'spheres' if self.draw_spheres else 'no_spheres'}_{uuid.uuid4()if self.map_seed is None else f'seed_{self.map_seed}'}.png")
 
         else:
             if "png" not in file_path:
@@ -245,7 +246,7 @@ class JsonGridLoader:
     def json_to_image(self):
         all_map_info = load_json(self.file_path)
         grid = Grid(num_cells_row=all_map_info[self.detail_keys[1]], num_cells_col=all_map_info[self.detail_keys[2]],
-                    scale=25, padding=[2, 2, 2, 2], draw_spheres=self.draw_spheres)
+                    scale=25, padding=[2, 2, 2, 2], draw_spheres=self.draw_spheres, map_seed=all_map_info[self.detail_keys[3]])
         all_cells = [item for key, item in all_map_info.items() if key not in self.detail_keys]
         for cell in all_cells:
             try:

@@ -15,7 +15,7 @@
 },"cell_row0_col1": {
 	"gridPosition":
 	{
-		"x": 300,
+		"x": 316.5,
 		"y": 0
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
@@ -29,7 +29,7 @@
 },"cell_row0_col2": {
 	"gridPosition":
 	{
-		"x": 600,
+		"x": 633,
 		"y": 0
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
@@ -43,7 +43,7 @@
 },"cell_row0_col3": {
 	"gridPosition":
 	{
-		"x": 900,
+		"x": 949.5,
 		"y": 0
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
@@ -57,7 +57,7 @@
 },"cell_row0_col4": {
 	"gridPosition":
 	{
-		"x": 1200,
+		"x": 1266,
 		"y": 0
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
@@ -71,7 +71,7 @@
 },"cell_row0_col5": {
 	"gridPosition":
 	{
-		"x": 1500,
+		"x": 1582.5,
 		"y": 0
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
@@ -85,7 +85,7 @@
 },"cell_row0_col6": {
 	"gridPosition":
 	{
-		"x": 1800,
+		"x": 1899,
 		"y": 0
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
@@ -99,7 +99,7 @@
 },"cell_row0_col7": {
 	"gridPosition":
 	{
-		"x": 2100,
+		"x": 2215.5,
 		"y": 0
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
@@ -114,7 +114,7 @@
 	"gridPosition":
 	{
 		"x": 0,
-		"y": 300
+		"y": 316.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 2,
@@ -127,12 +127,12 @@
 },"cell_row1_col1": {
 	"gridPosition":
 	{
-		"x": 300,
-		"y": 300
+		"x": 316.5,
+		"y": 316.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 1,
-	"moduleIndex": 0,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
+	"rotationIndex": 0,
+	"moduleIndex": 2,
 	"gridIndices":
 	{
 		"x": 1,
@@ -141,12 +141,12 @@
 },"cell_row1_col2": {
 	"gridPosition":
 	{
-		"x": 600,
-		"y": 300
+		"x": 633,
+		"y": 316.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
 	"rotationIndex": 0,
-	"moduleIndex": 1,
+	"moduleIndex": 0,
 	"gridIndices":
 	{
 		"x": 2,
@@ -155,12 +155,12 @@
 },"cell_row1_col3": {
 	"gridPosition":
 	{
-		"x": 900,
-		"y": 300
+		"x": 949.5,
+		"y": 316.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
-	"rotationIndex": 2,
-	"moduleIndex": 2,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
+	"rotationIndex": 0,
+	"moduleIndex": 1,
 	"gridIndices":
 	{
 		"x": 3,
@@ -169,11 +169,11 @@
 },"cell_row1_col4": {
 	"gridPosition":
 	{
-		"x": 1200,
-		"y": 300
+		"x": 1266,
+		"y": 316.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 2,
+	"rotationIndex": 0,
 	"moduleIndex": 0,
 	"gridIndices":
 	{
@@ -183,12 +183,12 @@
 },"cell_row1_col5": {
 	"gridPosition":
 	{
-		"x": 1500,
-		"y": 300
+		"x": 1582.5,
+		"y": 316.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
-	"rotationIndex": 0,
-	"moduleIndex": 1,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
+	"rotationIndex": 3,
+	"moduleIndex": 2,
 	"gridIndices":
 	{
 		"x": 5,
@@ -197,12 +197,12 @@
 },"cell_row1_col6": {
 	"gridPosition":
 	{
-		"x": 1800,
-		"y": 300
+		"x": 1899,
+		"y": 316.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 2,
-	"moduleIndex": 0,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
+	"rotationIndex": 0,
+	"moduleIndex": 2,
 	"gridIndices":
 	{
 		"x": 6,
@@ -211,8 +211,8 @@
 },"cell_row1_col7": {
 	"gridPosition":
 	{
-		"x": 2100,
-		"y": 300
+		"x": 2215.5,
+		"y": 316.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 0,
@@ -226,7 +226,7 @@
 	"gridPosition":
 	{
 		"x": 0,
-		"y": 600
+		"y": 633
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 2,
@@ -239,12 +239,12 @@
 },"cell_row2_col1": {
 	"gridPosition":
 	{
-		"x": 300,
-		"y": 600
+		"x": 316.5,
+		"y": 633
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 0,
-	"moduleIndex": 0,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
+	"rotationIndex": 3,
+	"moduleIndex": 2,
 	"gridIndices":
 	{
 		"x": 1,
@@ -253,12 +253,12 @@
 },"cell_row2_col2": {
 	"gridPosition":
 	{
-		"x": 600,
-		"y": 600
+		"x": 633,
+		"y": 633
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
-	"rotationIndex": 0,
-	"moduleIndex": 1,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
+	"rotationIndex": 2,
+	"moduleIndex": 2,
 	"gridIndices":
 	{
 		"x": 2,
@@ -267,11 +267,11 @@
 },"cell_row2_col3": {
 	"gridPosition":
 	{
-		"x": 900,
-		"y": 600
+		"x": 949.5,
+		"y": 633
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 1,
+	"rotationIndex": 3,
 	"moduleIndex": 0,
 	"gridIndices":
 	{
@@ -281,8 +281,8 @@
 },"cell_row2_col4": {
 	"gridPosition":
 	{
-		"x": 1200,
-		"y": 600
+		"x": 1266,
+		"y": 633
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
 	"rotationIndex": 0,
@@ -295,12 +295,12 @@
 },"cell_row2_col5": {
 	"gridPosition":
 	{
-		"x": 1500,
-		"y": 600
+		"x": 1582.5,
+		"y": 633
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 3,
-	"moduleIndex": 0,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
+	"rotationIndex": 0,
+	"moduleIndex": 1,
 	"gridIndices":
 	{
 		"x": 5,
@@ -309,12 +309,12 @@
 },"cell_row2_col6": {
 	"gridPosition":
 	{
-		"x": 1800,
-		"y": 600
+		"x": 1899,
+		"y": 633
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 3,
-	"moduleIndex": 0,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
+	"rotationIndex": 2,
+	"moduleIndex": 2,
 	"gridIndices":
 	{
 		"x": 6,
@@ -323,8 +323,8 @@
 },"cell_row2_col7": {
 	"gridPosition":
 	{
-		"x": 2100,
-		"y": 600
+		"x": 2215.5,
+		"y": 633
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 0,
@@ -338,7 +338,7 @@
 	"gridPosition":
 	{
 		"x": 0,
-		"y": 900
+		"y": 949.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 2,
@@ -351,12 +351,12 @@
 },"cell_row3_col1": {
 	"gridPosition":
 	{
-		"x": 300,
-		"y": 900
+		"x": 316.5,
+		"y": 949.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 1,
-	"moduleIndex": 0,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
+	"rotationIndex": 0,
+	"moduleIndex": 1,
 	"gridIndices":
 	{
 		"x": 1,
@@ -365,8 +365,8 @@
 },"cell_row3_col2": {
 	"gridPosition":
 	{
-		"x": 600,
-		"y": 900
+		"x": 633,
+		"y": 949.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
 	"rotationIndex": 0,
@@ -379,12 +379,12 @@
 },"cell_row3_col3": {
 	"gridPosition":
 	{
-		"x": 900,
-		"y": 900
+		"x": 949.5,
+		"y": 949.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
 	"rotationIndex": 0,
-	"moduleIndex": 2,
+	"moduleIndex": 1,
 	"gridIndices":
 	{
 		"x": 3,
@@ -393,12 +393,12 @@
 },"cell_row3_col4": {
 	"gridPosition":
 	{
-		"x": 1200,
-		"y": 900
+		"x": 1266,
+		"y": 949.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 0,
-	"moduleIndex": 1,
+	"moduleIndex": 2,
 	"gridIndices":
 	{
 		"x": 4,
@@ -407,12 +407,12 @@
 },"cell_row3_col5": {
 	"gridPosition":
 	{
-		"x": 1500,
-		"y": 900
+		"x": 1582.5,
+		"y": 949.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
-	"rotationIndex": 3,
-	"moduleIndex": 2,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
+	"rotationIndex": 2,
+	"moduleIndex": 0,
 	"gridIndices":
 	{
 		"x": 5,
@@ -421,12 +421,12 @@
 },"cell_row3_col6": {
 	"gridPosition":
 	{
-		"x": 1800,
-		"y": 900
+		"x": 1899,
+		"y": 949.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
-	"rotationIndex": 0,
-	"moduleIndex": 1,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
+	"rotationIndex": 3,
+	"moduleIndex": 0,
 	"gridIndices":
 	{
 		"x": 6,
@@ -435,8 +435,8 @@
 },"cell_row3_col7": {
 	"gridPosition":
 	{
-		"x": 2100,
-		"y": 900
+		"x": 2215.5,
+		"y": 949.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 0,
@@ -450,7 +450,7 @@
 	"gridPosition":
 	{
 		"x": 0,
-		"y": 1200
+		"y": 1266
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 2,
@@ -463,12 +463,12 @@
 },"cell_row4_col1": {
 	"gridPosition":
 	{
-		"x": 300,
-		"y": 1200
+		"x": 316.5,
+		"y": 1266
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
-	"rotationIndex": 0,
-	"moduleIndex": 1,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
+	"rotationIndex": 3,
+	"moduleIndex": 0,
 	"gridIndices":
 	{
 		"x": 1,
@@ -477,8 +477,8 @@
 },"cell_row4_col2": {
 	"gridPosition":
 	{
-		"x": 600,
-		"y": 1200
+		"x": 633,
+		"y": 1266
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
 	"rotationIndex": 0,
@@ -491,11 +491,11 @@
 },"cell_row4_col3": {
 	"gridPosition":
 	{
-		"x": 900,
-		"y": 1200
+		"x": 949.5,
+		"y": 1266
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 2,
+	"rotationIndex": 1,
 	"moduleIndex": 0,
 	"gridIndices":
 	{
@@ -505,11 +505,11 @@
 },"cell_row4_col4": {
 	"gridPosition":
 	{
-		"x": 1200,
-		"y": 1200
+		"x": 1266,
+		"y": 1266
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 2,
+	"rotationIndex": 1,
 	"moduleIndex": 0,
 	"gridIndices":
 	{
@@ -519,12 +519,12 @@
 },"cell_row4_col5": {
 	"gridPosition":
 	{
-		"x": 1500,
-		"y": 1200
+		"x": 1582.5,
+		"y": 1266
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
 	"rotationIndex": 0,
-	"moduleIndex": 1,
+	"moduleIndex": 0,
 	"gridIndices":
 	{
 		"x": 5,
@@ -533,12 +533,12 @@
 },"cell_row4_col6": {
 	"gridPosition":
 	{
-		"x": 1800,
-		"y": 1200
+		"x": 1899,
+		"y": 1266
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 1,
-	"moduleIndex": 0,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
+	"rotationIndex": 0,
+	"moduleIndex": 1,
 	"gridIndices":
 	{
 		"x": 6,
@@ -547,8 +547,8 @@
 },"cell_row4_col7": {
 	"gridPosition":
 	{
-		"x": 2100,
-		"y": 1200
+		"x": 2215.5,
+		"y": 1266
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 0,
@@ -562,7 +562,7 @@
 	"gridPosition":
 	{
 		"x": 0,
-		"y": 1500
+		"y": 1582.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 2,
@@ -575,12 +575,12 @@
 },"cell_row5_col1": {
 	"gridPosition":
 	{
-		"x": 300,
-		"y": 1500
+		"x": 316.5,
+		"y": 1582.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
-	"rotationIndex": 0,
-	"moduleIndex": 1,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
+	"rotationIndex": 2,
+	"moduleIndex": 2,
 	"gridIndices":
 	{
 		"x": 1,
@@ -589,12 +589,12 @@
 },"cell_row5_col2": {
 	"gridPosition":
 	{
-		"x": 600,
-		"y": 1500
+		"x": 633,
+		"y": 1582.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
 	"rotationIndex": 0,
-	"moduleIndex": 0,
+	"moduleIndex": 1,
 	"gridIndices":
 	{
 		"x": 2,
@@ -603,12 +603,12 @@
 },"cell_row5_col3": {
 	"gridPosition":
 	{
-		"x": 900,
-		"y": 1500
+		"x": 949.5,
+		"y": 1582.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
-	"rotationIndex": 3,
-	"moduleIndex": 2,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
+	"rotationIndex": 0,
+	"moduleIndex": 0,
 	"gridIndices":
 	{
 		"x": 3,
@@ -617,12 +617,12 @@
 },"cell_row5_col4": {
 	"gridPosition":
 	{
-		"x": 1200,
-		"y": 1500
+		"x": 1266,
+		"y": 1582.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
-	"rotationIndex": 2,
-	"moduleIndex": 2,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
+	"rotationIndex": 0,
+	"moduleIndex": 1,
 	"gridIndices":
 	{
 		"x": 4,
@@ -631,12 +631,12 @@
 },"cell_row5_col5": {
 	"gridPosition":
 	{
-		"x": 1500,
-		"y": 1500
+		"x": 1582.5,
+		"y": 1582.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
-	"rotationIndex": 0,
-	"moduleIndex": 1,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
+	"rotationIndex": 3,
+	"moduleIndex": 0,
 	"gridIndices":
 	{
 		"x": 5,
@@ -645,12 +645,12 @@
 },"cell_row5_col6": {
 	"gridPosition":
 	{
-		"x": 1800,
-		"y": 1500
+		"x": 1899,
+		"y": 1582.5
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
 	"rotationIndex": 0,
-	"moduleIndex": 2,
+	"moduleIndex": 0,
 	"gridIndices":
 	{
 		"x": 6,
@@ -659,8 +659,8 @@
 },"cell_row5_col7": {
 	"gridPosition":
 	{
-		"x": 2100,
-		"y": 1500
+		"x": 2215.5,
+		"y": 1582.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 0,
@@ -674,7 +674,7 @@
 	"gridPosition":
 	{
 		"x": 0,
-		"y": 1800
+		"y": 1899
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 2,
@@ -687,12 +687,12 @@
 },"cell_row6_col1": {
 	"gridPosition":
 	{
-		"x": 300,
-		"y": 1800
+		"x": 316.5,
+		"y": 1899
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 1,
-	"moduleIndex": 0,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
+	"rotationIndex": 0,
+	"moduleIndex": 1,
 	"gridIndices":
 	{
 		"x": 1,
@@ -701,11 +701,11 @@
 },"cell_row6_col2": {
 	"gridPosition":
 	{
-		"x": 600,
-		"y": 1800
+		"x": 633,
+		"y": 1899
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 0,
+	"rotationIndex": 2,
 	"moduleIndex": 0,
 	"gridIndices":
 	{
@@ -715,8 +715,8 @@
 },"cell_row6_col3": {
 	"gridPosition":
 	{
-		"x": 900,
-		"y": 1800
+		"x": 949.5,
+		"y": 1899
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
 	"rotationIndex": 1,
@@ -729,12 +729,12 @@
 },"cell_row6_col4": {
 	"gridPosition":
 	{
-		"x": 1200,
-		"y": 1800
+		"x": 1266,
+		"y": 1899
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
-	"rotationIndex": 0,
-	"moduleIndex": 1,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
+	"rotationIndex": 1,
+	"moduleIndex": 2,
 	"gridIndices":
 	{
 		"x": 4,
@@ -743,12 +743,12 @@
 },"cell_row6_col5": {
 	"gridPosition":
 	{
-		"x": 1500,
-		"y": 1800
+		"x": 1582.5,
+		"y": 1899
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
-	"rotationIndex": 0,
-	"moduleIndex": 1,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
+	"rotationIndex": 3,
+	"moduleIndex": 2,
 	"gridIndices":
 	{
 		"x": 5,
@@ -757,12 +757,12 @@
 },"cell_row6_col6": {
 	"gridPosition":
 	{
-		"x": 1800,
-		"y": 1800
+		"x": 1899,
+		"y": 1899
 	},
-	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
-	"rotationIndex": 3,
-	"moduleIndex": 0,
+	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_No_walls.BP_WFC_Mod_No_walls_C'",
+	"rotationIndex": 0,
+	"moduleIndex": 1,
 	"gridIndices":
 	{
 		"x": 6,
@@ -771,8 +771,8 @@
 },"cell_row6_col7": {
 	"gridPosition":
 	{
-		"x": 2100,
-		"y": 1800
+		"x": 2215.5,
+		"y": 1899
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 0,
@@ -786,7 +786,7 @@
 	"gridPosition":
 	{
 		"x": 0,
-		"y": 2100
+		"y": 2215.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
 	"rotationIndex": 2,
@@ -799,8 +799,8 @@
 },"cell_row7_col1": {
 	"gridPosition":
 	{
-		"x": 300,
-		"y": 2100
+		"x": 316.5,
+		"y": 2215.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 1,
@@ -813,8 +813,8 @@
 },"cell_row7_col2": {
 	"gridPosition":
 	{
-		"x": 600,
-		"y": 2100
+		"x": 633,
+		"y": 2215.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 1,
@@ -827,8 +827,8 @@
 },"cell_row7_col3": {
 	"gridPosition":
 	{
-		"x": 900,
-		"y": 2100
+		"x": 949.5,
+		"y": 2215.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 1,
@@ -841,8 +841,8 @@
 },"cell_row7_col4": {
 	"gridPosition":
 	{
-		"x": 1200,
-		"y": 2100
+		"x": 1266,
+		"y": 2215.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 1,
@@ -855,8 +855,8 @@
 },"cell_row7_col5": {
 	"gridPosition":
 	{
-		"x": 1500,
-		"y": 2100
+		"x": 1582.5,
+		"y": 2215.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 1,
@@ -869,8 +869,8 @@
 },"cell_row7_col6": {
 	"gridPosition":
 	{
-		"x": 1800,
-		"y": 2100
+		"x": 1899,
+		"y": 2215.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Side_Wall.BP_WFC_Mod_Side_Wall_C'",
 	"rotationIndex": 1,
@@ -883,8 +883,8 @@
 },"cell_row7_col7": {
 	"gridPosition":
 	{
-		"x": 2100,
-		"y": 2100
+		"x": 2215.5,
+		"y": 2215.5
 	},
 	"module": "/Script/Engine.BlueprintGeneratedClass'/Game/Locomotion_Content/Blueprints/Modules/BP_WFC_Mod_Corner_Wall.BP_WFC_Mod_Corner_Wall_C'",
 	"rotationIndex": 1,
@@ -897,25 +897,25 @@
 },"sphere_0": {
 	"gridIndices":
 	{
-		"x": 1,
-		"y": 4
+		"x": 2,
+		"y": 2
 	},
-	"color": "red",
-	"materialIndex": 2,
+	"color": "blue",
+	"materialIndex": 0,
 	"transform":
 	{
 		"rotation":
 		{
-			"x": 0,
-			"y": -0,
-			"z": 0,
-			"w": 1
+			"x": -0,
+			"y": 0,
+			"z": -0.70710678118654768,
+			"w": 0.70710678118654746
 		},
 		"translation":
 		{
-			"x": 190,
-			"y": 1390,
-			"z": 1290
+			"x": 672.75,
+			"y": 1199.25,
+			"z": 1270
 		},
 		"scale3D":
 		{
@@ -923,41 +923,17 @@
 			"y": 1,
 			"z": 1
 		}
+	},
+	"xYZ_Offset":
+	{
+		"x": 0,
+		"y": 0,
+		"z": 0
 	}
 },"sphere_1": {
 	"gridIndices":
 	{
-		"x": 2,
-		"y": 5
-	},
-	"color": "green",
-	"materialIndex": 1,
-	"transform":
-	{
-		"rotation":
-		{
-			"x": 0,
-			"y": -0,
-			"z": 0,
-			"w": 1
-		},
-		"translation":
-		{
-			"x": 490,
-			"y": 1690,
-			"z": 1290
-		},
-		"scale3D":
-		{
-			"x": 1,
-			"y": 1,
-			"z": 1
-		}
-	}
-},"sphere_2": {
-	"gridIndices":
-	{
-		"x": 1,
+		"x": 5,
 		"y": 1
 	},
 	"color": "red",
@@ -973,9 +949,9 @@
 		},
 		"translation":
 		{
-			"x": 190,
-			"y": 490,
-			"z": 1290
+			"x": 1313.25,
+			"y": 874.75,
+			"z": 1270
 		},
 		"scale3D":
 		{
@@ -983,12 +959,90 @@
 			"y": 1,
 			"z": 1
 		}
+	},
+	"xYZ_Offset":
+	{
+		"x": 0,
+		"y": 0,
+		"z": 0
+	}
+},"sphere_2": {
+	"gridIndices":
+	{
+		"x": 2,
+		"y": 4
+	},
+	"color": "green",
+	"materialIndex": 1,
+	"transform":
+	{
+		"rotation":
+		{
+			"x": 0,
+			"y": -0,
+			"z": 0.70710678118654768,
+			"w": 0.70710678118654746
+		},
+		"translation":
+		{
+			"x": 371.75,
+			"y": 1515.25,
+			"z": 1270
+		},
+		"scale3D":
+		{
+			"x": 1,
+			"y": 1,
+			"z": 1
+		}
+	},
+	"xYZ_Offset":
+	{
+		"x": 0,
+		"y": 0,
+		"z": 0
 	}
 },"sphere_3": {
 	"gridIndices":
 	{
-		"x": 1,
-		"y": 3
+		"x": 4,
+		"y": 6
+	},
+	"color": "blue",
+	"materialIndex": 0,
+	"transform":
+	{
+		"rotation":
+		{
+			"x": 0,
+			"y": -0,
+			"z": 0.99999999999999989,
+			"w": 6.123233995736766e-17
+		},
+		"translation":
+		{
+			"x": 1313.75,
+			"y": 2156.25,
+			"z": 1270
+		},
+		"scale3D":
+		{
+			"x": 1,
+			"y": 1,
+			"z": 1
+		}
+	},
+	"xYZ_Offset":
+	{
+		"x": 0,
+		"y": 0,
+		"z": 0
+	}
+},"sphere_4": {
+	"gridIndices":
+	{
+		"x": 5,
+		"y": 1
 	},
 	"color": "blue",
 	"materialIndex": 0,
@@ -1003,9 +1057,9 @@
 		},
 		"translation":
 		{
-			"x": 190,
-			"y": 1090,
-			"z": 1290
+			"x": 1313.25,
+			"y": 874.75,
+			"z": 1270
 		},
 		"scale3D":
 		{
@@ -1013,38 +1067,14 @@
 			"y": 1,
 			"z": 1
 		}
-	}
-},"sphere_4": {
-	"gridIndices":
-	{
-		"x": 7,
-		"y": 6
 	},
-	"color": "green",
-	"materialIndex": 1,
-	"transform":
+	"xYZ_Offset":
 	{
-		"rotation":
-		{
-			"x": 0,
-			"y": -0,
-			"z": 0,
-			"w": 1
-		},
-		"translation":
-		{
-			"x": 1990,
-			"y": 1990,
-			"z": 1290
-		},
-		"scale3D":
-		{
-			"x": 1,
-			"y": 1,
-			"z": 1
-		}
+		"x": 0,
+		"y": 0,
+		"z": 0
 	}
 },"offsets": {
-	"x": 300,
-	"y": 300
-}, "rowLength": 8 , "columnLength": 8, "mapSeed": 69420}
+	"x": 316.5,
+	"y": 316.5
+}, "rowLength": 8 , "columnLength": 8, "mapSeed": 20}
