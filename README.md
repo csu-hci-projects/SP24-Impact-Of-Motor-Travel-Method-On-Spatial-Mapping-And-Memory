@@ -26,7 +26,7 @@
  - After confirming your headset is properly connected, open the Unreal Engine project using Unreal Engine version 5.3
  - Once the project is open, you have a couple of options for changing the settings of the map and visual effects applied to the user:
    - To change the map's layout, you need to navigate to the `BP_WaveFunctionCollapse` blueprint in `...\Locomotion_Sim\Content\Locomotion_Content\Blueprints` and search for the `RandomStreamSeed` in variables.  After changing the seed, compile the blueprint and the map orientation should change accordingly.
-   - To change the visual effect applied to the user, navigate to the `VR_Pawn` blueprint in `...\Locomotion_Sim\Content\VRTemplate\Blueprints` and search for the ...
+   - To change the visual effect applied to the user, navigate to the `VR_Pawn` blueprint in `...\Locomotion_Sim\Content\VRTemplate\Blueprints`, then select the `Sphere` component from the `Components` window in the `Viewport` tab of the `VR_Pawn` blueprint. From here you can swap between the two visual effects via the `Materials` tab in the `Details` window. Clicking the dropdown, select either the `blurDome` or `fadeDome` for each blur and fade visual effect respectively.  
 
 ## Generating the 2D Map of The Test Environment
 ### Setting up your Venv
