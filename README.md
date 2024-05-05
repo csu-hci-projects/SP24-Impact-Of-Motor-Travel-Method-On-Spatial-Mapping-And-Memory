@@ -22,7 +22,11 @@
 
 ## Running the Unreal Engine 5 VR Experience
  - Make sure you have all of the plugins installed, as you cannot properly open the Locomotion_Sim project without having everything setup.
- - ...
+ - Next, make sure that your headset of choice is properly connected to your computer before starting the Unreal Engine project, otherwise the VR preview mode may not be available to run initially.  In our case we used an Oculus Quest 2 which required the Meta Quest Link application to be running in the background.
+ - After confirming your headset is properly connected, open the Unreal Engine project using Unreal Engine version 5.3
+ - Once the project is open, you have a couple of options for changing the settings of the map and visual effects applied to the user:
+   - To change the map's layout, you need to navigate to the `BP_WaveFunctionCollapse` blueprint in `...\Locomotion_Sim\Content\Locomotion_Content\Blueprints` and search for the `RandomStreamSeed` in variables.  After changing the seed, compile the blueprint and the map orientation should change accordingly.
+   - To change the visual effect applied to the user, navigate to the `VR_Pawn` blueprint in `...\Locomotion_Sim\Content\VRTemplate\Blueprints` and search for the ...
 
 ## Generating the 2D Map of The Test Environment
 ### Setting up your Venv
