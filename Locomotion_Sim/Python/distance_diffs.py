@@ -2,7 +2,7 @@ def distance(x2, y2):
     """
     Distance formula assuming that the correct ball placement is the origin
     Example: Correct blue ball is origin (0, 0) and the test subject placed the blue ball down two cells and right one cell
-        This would make the test ball offset by (1, -2) as down and right are positive and up and left are negative
+        This would make the test ball offset by (1, 2) as down and right are positive and up and left are negative
     """
     return ((x2 ** 2) + (y2 ** 2)) ** 0.5
 
